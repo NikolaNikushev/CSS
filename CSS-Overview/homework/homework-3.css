@@ -1,0 +1,32 @@
+*{
+	background: rgb(175, 175, 175);
+}
+ul{
+	list-style: none;
+}
+nav a{
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+h1{
+	color:#EEEED8;
+}
+article header h1{
+	font-size:23px;
+}
+body>header, body>footer{
+	text-align:center;
+	font-weight:bold
+}
+li:last-child a{
+	text-decoration: underline;
+}
+p a{
+	text-decoration: none;
+	color: black;
+}
+.current{
+	background-color:silver;
+	text-decoration: none;
+}

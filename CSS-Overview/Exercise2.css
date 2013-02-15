@@ -1,0 +1,25 @@
+#main{
+	width: 500px;
+	height: 150px;
+	padding: 0px;
+	margin: 0px;
+
+}
+ tr:nth-child(2n-1){
+	background:#EEEED8;
+}
+table th{
+	background-color: #3FCD00;
+	color: white;
+	border-bottom: 2px solid black;
+	border-bottom-width: 100%;
+	text-align: left;
+	font-weight: normal;
+}
+.data{
+	border-right: 1px solid black;
+}
+img{
+	height: 15px;
+	width:25px;
+}

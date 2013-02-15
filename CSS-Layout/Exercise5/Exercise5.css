@@ -1,0 +1,47 @@
+*{
+	padding : 0;
+	margin: 0;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+	overflow: hidden;
+	padding: 3px;
+}
+
+nav ul li{
+	overflow: hidden;
+	display: inline;
+	padding-left: 5px;
+}
+section{
+	border: solid black 1px;
+	margin: 5px;
+	max-width: 445px;
+
+	min-height: 350px;
+}
+legend{
+	text-align: center;
+}
+fieldset{
+	padding: 2px;
+	margin: 2px;
+	min-width: 180px;
+	min-height: 80px;
+}
+.first{
+	margin-left: 70px;
+}
+ol{
+	list-style: none;
+
+}
+#points{
+	position: absolute;
+	top:75px;
+	left:480px;
+}
+#points li+li{
+	margin-top:15px;
+}

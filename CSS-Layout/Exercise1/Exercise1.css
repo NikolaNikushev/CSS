@@ -1,0 +1,29 @@
+.nav-list a:hover{
+	text-decoration: underline;
+
+}
+
+ul{
+	list-style-type: none;
+
+}
+
+ul li > ul {
+	display: none;
+	color : gray;
+}
+
+ul li:hover> ul{
+	display: block;
+
+
+}
+
+
+a:link, a:visited{
+	text-decoration: none;
+	color: black;
+}
+ .nav-items .item a{
+ 	color:gray;
+ }

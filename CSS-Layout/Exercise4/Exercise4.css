@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, p {
+ 	margin-bottom: 10px; 
+}
+
+h2{
+    padding: 3px;
+    background: gray;
+    color: white;
+    font-size: 15px;
+}
+
+a{ 
+	color: red;
+}
+
+[class ^= "span"], [class *= " span"]  {
+    float: left;
+    margin-left: 10px;
+}
+
+.span1 { 
+	width: 175px; 
+}
+
+.span3 {
+ 	width: 520px; 
+}
+
+.pull-left {
+    float: left;
+    margin-right: 10px;
+}
+
+input[type = "search"] {
+	width: 120px; 
+}
+
+.unstyledList {
+	list-style: none; 
+}
+
+.inline li {
+	display: inline-block; 
+}
+
+dt{
+	font-weight: bold; 
+}
+dd a {
+	color: black; 
+}
+
+.left-Side a {
+	text-decoration: none; 
+}
+
+.left-Side a:hover{ 
+	text-decoration: underline; 
+}
+
+.buttons a {
+    display: block;
+    padding: 3px;
+    width: 130px;
+    border: 1px solid black;
+    color: black;
+    text-align: center;
+}
+
+.buttons li {
+	position: relative; 
+}
+
+.prev::after, .next::after {
+    position: absolute;
+    top: 5px;
+}
+
+.prev::after {
+    left: 3px;
+    content: "◄";
+}
+
+.next::after {
+    right: 3px;
+    content: "►";
+}
+
+.box{
+    border: 1px double gray;
+    margin: 1px;
+}
+
+.nav, aside{ 
+	padding-top: 5px; 
+}
+.left-Side{
+	 margin-bottom: 5px; 
+}
+
+.content{
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+aside{ 
+	text-align: center;
+	border: double gray 1px;
+	padding: 2px;
+	margin: 2px;
+}
+

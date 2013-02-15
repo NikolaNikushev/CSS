@@ -1,0 +1,32 @@
+
+ @mixin imgStyle($imgpath){
+	background: url($imgpath) no-repeat; width: 270px; height:300px; background-size:100%;
+	margin-left: 20px;
+}
+*{
+	padding:0;
+	margin:10px 0 0 0;
+
+}
+ul li:first-child{
+	margin-left: 20px;
+	}
+	li{
+	    display:inline;
+	    list-style:none;
+		 img{
+		    width:80px;
+		    height:80px;
+		}
+	}
+
+input[type="radio"]{
+    display:none;
+}
+
+input[type="radio"]:checked +label #image1{  @include imgStyle('image1.jpg')} 
+input[type="radio"]:checked +label #image2{  @include imgStyle('image2.jpg')} 
+input[type="radio"]:checked +label #image3{  @include imgStyle('image3.jpg')} 
+input[type="radio"]:checked +label #image4{  @include imgStyle('image4.jpg')} 
+input[type="radio"]:checked +label #image5{  @include imgStyle('image5.jpg')} 
+input[type="radio"]:checked +label #image6{  @include imgStyle('image6.jpg')} 
